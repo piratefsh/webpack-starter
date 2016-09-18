@@ -5,7 +5,6 @@ Simple directory and config setup for a Webpack project with front-end web only.
 ### Install
 ```
 npm install
-npm install webpack-dev-server webpack -g
 ```
 
 ### Serve
@@ -13,6 +12,10 @@ npm install webpack-dev-server webpack -g
 To serve at http://localhost:8080/:
 
 ```
+npm start
+
+//or 
+
 webpack-dev-server --inline  --content-base public/ 
 ```
 
