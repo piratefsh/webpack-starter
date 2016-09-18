@@ -4,6 +4,7 @@ Simple directory and config setup for a Webpack project with front-end web only.
 ## Development 
 ### Install
 ```
+npm install webpack-dev-server webpack -g
 npm install
 ```
 
